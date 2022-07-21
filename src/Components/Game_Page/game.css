@@ -1,0 +1,29 @@
+.game_main{
+     padding-top: 150px;
+     background-image: url("./Assets/Background.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+}
+.game_upper_img{
+     width: 100%;
+     height: 640px;
+     background-image: url("./Assets/token_head.png");
+     background-position: top;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.game_title{
+     color: #fff;
+     text-transform: capitalize;
+     text-align: center;
+}
+
+.game_image{
+     width:100%;
+}
+
+.game_seprator{
+     padding: 40px 0 150px 0;
+}

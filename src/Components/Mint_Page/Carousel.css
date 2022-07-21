@@ -1,0 +1,44 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+
+    opacity: .75;
+    color: #88c56a;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slider_card{
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+.slider_card:hover{
+  border: 1px solid transparent;
+  background-color: #88c56a;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.slider_img{
+  width: 100%;
+  border-radius: 10px;
+}
+.slider_content{
+  padding: 20px 0 10px;
+}
+
+.slider_title{
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 43px;
+}

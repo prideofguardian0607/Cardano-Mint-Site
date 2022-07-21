@@ -1,0 +1,123 @@
+.contact_main{
+     padding-top: 150px;
+
+     background-image: url("./Assets/Background.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+.contact_img{
+     width: 100%;
+     height: 700px;
+     background-image: url("./Assets/deadpool1-300x3.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.contact_title{
+     color: #fff;
+     text-transform: capitalize;
+     text-align: center;
+}
+.email_head{
+     padding: 50px 0;
+}
+
+.email_heading{
+     color: #fff;
+     text-transform: capitalize;
+     font-size: 2rem;
+     text-align: center;
+}
+
+.contact_img{
+     width: 100%;
+}
+
+.location_para{
+color: #fff;
+line-height: 30px;
+}
+
+.location_img{
+     width: 60%;
+}
+
+.contact_middel_space{
+     padding: 10px 0;
+}
+
+.email_title{
+     padding: 40px 0 20px 0;
+     font-size: 1.6rem;
+}
+
+.e_head{
+     color: #fff;
+     text-transform: capitalize;
+}
+
+.email_label{
+     background-color: transparent;
+     padding: 10px ;
+     border: 1px solid #95DB74;
+     border-radius: 8px;
+     color: #fff;
+     text-transform: capitalize;
+     font-family: 'Montserrat', sans-serif;
+     width: 83%;
+     margin: 10px;
+
+}
+.email_label::placeholder{
+     font-weight: bold;
+     color: #fff;
+     text-transform: capitalize;
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+.message_Label{
+     background-color: transparent;
+     padding: 10px ;
+     border: 1px solid #95DB74;
+     border-radius: 8px;
+     color: #fff;
+     text-transform: capitalize;
+     font-family: 'Montserrat', sans-serif;
+     width: 94%;
+     margin-top: 20px;
+     padding-bottom: 280px;
+}
+.message_Label::placeholder{
+     font-weight: bold;
+     color: #fff;
+     text-transform: capitalize;
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+.send_btn{
+     margin-top: 20px;
+}
+
+.sent_it{
+     text-transform: capitalize;
+     background-color: #95DB74;
+     border: none;
+     font-weight: bold;
+     padding: 10px 20px;
+     font-family: 'Montserrat', sans-serif;
+     border-radius: 5px;
+     cursor: pointer;
+}
+.sent_it:hover{
+     
+     background-color: #689c50;
+transition: .2s;
+}
+
+.last_spacing{
+     padding: 50px;
+}

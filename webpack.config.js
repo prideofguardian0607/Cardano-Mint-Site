@@ -23,7 +23,7 @@ module.exports = {
     extensions: ['*', '.js', '.jsx'],
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, './build'),
     filename: 'bundle.js',
     publicPath: '/'
   },
@@ -33,7 +33,7 @@ module.exports = {
   plugins: [new webpack.HotModuleReplacementPlugin(), 
 ],
   devServer: {
-    contentBase: path.resolve(__dirname, './dist'),
+    contentBase: path.resolve(__dirname, './build'),
     hot: true,
     historyApiFallback: true,
     publicPath: '/', 
@@ -41,4 +41,9 @@ module.exports = {
       disableHostCheck: true,
     
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.resolve('./index.html'),
+    }),
+  ]
 };

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve --config ./webpack.config.js --mode development",
     "test": "echo \"No test specified\" && exit 0", 
-    "build": "webpack --mode production"
+    "build": "cd src\nami-js && npm install && cd .. && cd .. && webpack --mode production"
   },
   "keywords": [],
   "author": "",
